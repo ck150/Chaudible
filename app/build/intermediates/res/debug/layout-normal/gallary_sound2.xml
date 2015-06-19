@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView	xmlns:android="http://schemas.android.com/apk/res/android"
+    
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+	
+	<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	
+    
+	<LinearLayout 
+        android:id="@+id/gallary2_1Layout"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+	<CheckBox
+	    android:id="@+id/checkBox2_1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:minHeight="50dp" />
+        
+    <Button
+        android:id="@+id/sound2_1"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:gravity="left|bottom"
+        android:text="Crying baby"
+        android:textSize="25sp" />
+	
+	<ImageButton
+        android:id="@+id/overflow_button2_1"
+        android:layout_height="match_parent"
+        
+        android:layout_width="wrap_content"
+        android:src="@drawable/gallary_overflow" />
+	
+	</LinearLayout>
+	
+	<LinearLayout 
+        android:id="@+id/gallary2_2Layout"
+        android:layout_below="@+id/gallary2_1Layout"
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+	<CheckBox
+	    android:id="@+id/checkBox2_2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:minHeight="50dp" />
+        
+    <Button
+        android:id="@+id/sound2_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:text="Fart 1"
+        android:gravity="left|bottom"
+        android:textSize="25sp" />
+	
+	<ImageButton
+        android:id="@+id/overflow_button2_2"
+        android:layout_height="match_parent"
+        
+        android:layout_width="wrap_content"
+        android:src="@drawable/gallary_overflow" />
+	
+	</LinearLayout>
+	
+<LinearLayout 
+        android:id="@+id/gallary2_3Layout"
+        android:layout_below="@+id/gallary2_2Layout"
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+	<CheckBox
+	    android:id="@+id/checkBox2_3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:minHeight="50dp" />
+        
+    <Button
+        android:id="@+id/sound2_3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:gravity="left|bottom"
+        android:text="Fart 2"
+        android:textSize="25sp" />
+	
+	<ImageButton
+        android:id="@+id/overflow_button2_3"
+        android:layout_height="match_parent"
+        
+        android:layout_width="wrap_content"
+        android:src="@drawable/gallary_overflow" />
+	
+	</LinearLayout>
+		
+<LinearLayout 
+        android:id="@+id/gallary2_4Layout"
+        android:layout_below="@+id/gallary2_3Layout"
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+	<CheckBox
+	    android:id="@+id/checkBox2_4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:minHeight="50dp" />
+        
+    <Button
+        android:id="@+id/sound2_4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:gravity="left|bottom"
+        android:text="Robot fart"
+        android:textSize="25sp" />
+	
+	<ImageButton
+        android:id="@+id/overflow_button2_4"
+        android:layout_height="match_parent"
+        
+        android:layout_width="wrap_content"
+        android:src="@drawable/gallary_overflow" />
+	
+	</LinearLayout>
+
+<LinearLayout 
+        android:id="@+id/gallary2_5Layout"
+        android:layout_below="@+id/gallary2_4Layout"
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+	<CheckBox
+	    android:id="@+id/checkBox2_5"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:minHeight="50dp" />
+        
+    <Button
+        android:id="@+id/sound2_5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:gravity="left|bottom"
+        android:text="Puke"
+        android:textSize="25sp" />
+	
+	<ImageButton
+        android:id="@+id/overflow_button2_5"
+        android:layout_height="match_parent"
+        
+        android:layout_width="wrap_content"
+        android:src="@drawable/gallary_overflow" />
+	
+	</LinearLayout>
+
+
+<LinearLayout 
+        android:id="@+id/gallary2_6Layout"
+        android:layout_below="@+id/gallary2_5Layout"
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+	<CheckBox
+	    android:id="@+id/checkBox2_6"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:minHeight="50dp" />
+        
+    <Button
+        android:id="@+id/sound2_6"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:gravity="left|bottom"
+        android:text="Cough"
+        android:textSize="25sp" />
+	
+	<ImageButton
+        android:id="@+id/overflow_button2_6"
+        android:layout_height="match_parent"
+        
+        android:layout_width="wrap_content"
+        android:src="@drawable/gallary_overflow" />
+	
+	</LinearLayout>
+
+<LinearLayout 
+        android:id="@+id/gallary2_7Layout"
+        android:layout_below="@+id/gallary2_6Layout"
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+	<CheckBox
+	    android:id="@+id/checkBox2_7"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:minHeight="50dp" />
+        
+    <Button
+        android:id="@+id/sound2_7"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:gravity="left|bottom"
+        android:text="Yawn"
+        android:textSize="25sp" />
+	
+	<ImageButton
+        android:id="@+id/overflow_button2_7"
+        android:layout_height="match_parent"
+        
+        android:layout_width="wrap_content"
+        android:src="@drawable/gallary_overflow" />
+	
+	</LinearLayout>
+
+<LinearLayout 
+        android:id="@+id/gallary2_8Layout"
+        android:layout_below="@+id/gallary2_7Layout"
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+	<CheckBox
+	    android:id="@+id/checkBox2_8"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:minHeight="50dp" />
+        
+    <Button
+        android:id="@+id/sound2_8"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:gravity="left|bottom"
+        android:text="Applause"
+        android:textSize="25sp" />
+	
+	<ImageButton
+        android:id="@+id/overflow_button2_8"
+        android:layout_height="match_parent"
+        
+        android:layout_width="wrap_content"
+        android:src="@drawable/gallary_overflow" />
+	
+	</LinearLayout>
+
+<LinearLayout 
+        android:id="@+id/gallary2_9Layout"
+        android:layout_below="@+id/gallary2_8Layout"
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+	<CheckBox
+	    android:id="@+id/checkBox2_9"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:minHeight="50dp" />
+        
+    <Button
+        android:id="@+id/sound2_9"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:gravity="left|bottom"
+        android:text="Kisses"
+        android:textSize="25sp" />
+	
+	<ImageButton
+        android:id="@+id/overflow_button2_9"
+        android:layout_height="match_parent"
+        
+        android:layout_width="wrap_content"
+        android:src="@drawable/gallary_overflow" />
+	
+	</LinearLayout>
+
+</RelativeLayout>
+
+</ScrollView>
+	<!-- From: file:/C:/Users/sunny/AndroidStudioProjects/Chaudible3/app/src/main/res/layout-normal/gallary_sound2.xml -->

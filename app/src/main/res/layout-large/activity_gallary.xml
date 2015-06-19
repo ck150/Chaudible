@@ -1,0 +1,143 @@
+<ScrollView	xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/ScrollView00"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:context="com.desire.chaudible.GallaryActivity" >
+
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/RLayout00"
+    android:background= "@drawable/back6"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+     >
+
+    <ImageButton
+        android:id="@+id/GButton1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/b4"
+        android:onClick="OpenLightBox0"
+        android:scaleType="fitXY"
+        android:src="@drawable/gallary1" />
+
+    <ImageButton
+        android:id="@+id/GButton2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background = "@drawable/b4"  
+        android:layout_below="@+id/GButton1"
+        android:scaleType="fitXY"
+        android:src="@drawable/gallary2"
+        android:onClick = "OpenLightBox1" />
+
+    <ImageButton
+        android:id="@+id/GButton3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background = "@drawable/b4"  
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/GButton2"
+        android:src="@drawable/gallary3"
+        android:onClick = "OpenLightBox2" />
+
+    <ImageButton
+        android:id="@+id/GButton4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY"
+        android:background = "@drawable/b4"  
+        android:layout_below="@+id/GButton3"
+        android:src="@drawable/gallary4"
+        android:onClick = "OpenLightBox3" />
+
+    <ImageButton
+        android:id="@+id/GButton5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background = "@drawable/b4"  
+        android:layout_below="@+id/GButton4"
+        android:scaleType="fitXY"
+        android:src="@drawable/gallary5"
+        android:onClick = "OpenLightBox4" />
+   
+    <ImageButton
+        android:id="@+id/GButton6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background = "@drawable/b4"  
+        android:layout_below="@+id/GButton5"
+        android:scaleType="fitXY"
+        android:src="@drawable/gallary6"
+        android:onClick = "OpenLightBox5" />
+   
+    <ImageButton
+        android:id="@+id/GButton7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background = "@drawable/b4"  
+        android:layout_below="@+id/GButton6"
+        android:src="@drawable/gallary7"
+        android:scaleType="fitXY"
+        android:onClick = "OpenLightBox6" />
+   
+    <ImageButton
+        android:id="@+id/GButton8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background = "@drawable/b4"  
+        android:layout_below="@+id/GButton7"
+        android:scaleType="fitXY"
+        android:src="@drawable/gallary8"
+        android:onClick = "OpenLightBox7" />
+   
+    <ImageButton
+        android:id="@+id/GButton9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background = "@drawable/b4"  
+        android:layout_below="@+id/GButton8"
+        android:scaleType="fitXY"
+        android:src="@drawable/gallary9"
+        android:onClick = "OpenLightBox8" />
+   
+    
+    <ImageButton
+        android:id="@+id/GButton10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background = "@drawable/b4"  
+        android:layout_below="@+id/GButton9"
+        android:scaleType="fitXY"
+        android:src="@drawable/gallary10"
+        android:onClick = "OpenLightBox9" />
+   
+    
+    <ImageButton
+        android:id="@+id/GButton11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background = "@drawable/b4"  
+        android:layout_below="@+id/GButton10"
+        android:scaleType="fitXY"
+        android:src="@drawable/gallary11"
+        android:onClick = "OpenLightBox10" />
+   
+    
+</RelativeLayout>
+
+</ScrollView>

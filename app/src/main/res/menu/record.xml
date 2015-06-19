@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.chaudible.RecordActivity" >
+
+    <item
+        android:id="@+id/AboutChaudible2"
+        android:orderInCategory="0"
+        android:title="@string/about_chaudible"
+        app:showAsAction="never"
+     />
+
+    <item
+        android:id="@+id/CreatedBy2"
+        android:orderInCategory="1"
+        android:title="@string/created_by"
+        app:showAsAction="never"
+     />
+    
+    <item
+        android:id="@+id/ShareWithFriends2"
+        android:orderInCategory="2"
+        android:title="@string/share"
+        app:showAsAction="never"
+     />
+    
+    <item
+        android:id="@+id/Rate2"
+        android:orderInCategory="3"
+        android:title="@string/rate"
+        app:showAsAction="never"
+     />
+
+</menu>

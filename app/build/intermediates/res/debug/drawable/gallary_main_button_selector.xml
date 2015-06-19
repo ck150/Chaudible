@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:drawable="@drawable/g3p" android:state_selected="true"></item>
+    <item android:drawable="@drawable/g3p" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/g3"></item>
+    
+
+</selector>
+<!-- From: file:/C:/Users/sunny/AndroidStudioProjects/Chaudible3/app/src/main/res/drawable/gallary_main_button_selector.xml -->

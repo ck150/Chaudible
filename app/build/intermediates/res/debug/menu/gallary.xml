@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.desire.chaudible.GallaryActivity" >
+
+    <item
+        android:id="@+id/AboutChaudible3"
+        android:orderInCategory="0"
+        android:title="@string/about_chaudible"
+        app:showAsAction="never"
+     />
+
+    <item
+        android:id="@+id/CreatedBy3"
+        android:orderInCategory="1"
+        android:title="@string/created_by"
+        app:showAsAction="never"
+     />
+    
+    <item
+        android:id="@+id/ShareWithFriends3"
+        android:orderInCategory="2"
+        android:title="@string/share"
+        app:showAsAction="never"
+     />
+    
+    <item
+        android:id="@+id/Rate3"
+        android:orderInCategory="3"
+        android:title="@string/rate"
+        app:showAsAction="never"
+     />
+    
+</menu>
+<!-- From: file:/C:/Users/sunny/AndroidStudioProjects/Chaudible3/app/src/main/res/menu/gallary.xml -->
